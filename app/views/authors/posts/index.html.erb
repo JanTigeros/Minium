@@ -11,12 +11,15 @@
         <li class="nav-item active">
           <a class="nav-link" href="../">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/authors/sign_up">Sign in</a>
-        </li>
+        <% if author_signed_in? %>
         <li class="nav-item">
           <a class="nav-link" href="/authors/sign_out">Sign out</a>
         </li>
+        <% else %>
+        <li class="nav-item">
+          <a class="nav-link" href="/authors/sign_up">Sign in</a>
+        </li>
+        <% end %>
         <li class="nav-item">
           <a class="nav-link" href="#">All Posts</a>
         </li>

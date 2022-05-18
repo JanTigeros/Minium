@@ -12,9 +12,13 @@
         <li class="nav-item active">
           <a class="nav-link" href="#">Home</a>
         </li>
+        <% if author_signed_in? %>
+
+        <% else %>
         <li class="nav-item">
           <a class="nav-link" href="/authors/sign_up">Sign in</a>
         </li>
+        <% end %>
         <li class="nav-item">
           <%if author_signed_in?%>
           <%= link_to "sign_out", destroy_author_session_path, method: :delete, class:"nav-link"%>
