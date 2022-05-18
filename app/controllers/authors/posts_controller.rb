@@ -17,9 +17,9 @@ module Authors
     end
 
     # GET /posts/1/edit
-    def edit
-      @paragraph = @post.elements.build(element_type: 'paragraph')
-    end
+    # def edit
+    #   @paragraph = @post.elements.build(element_type: 'paragraph')
+    # end
 
     # POST /posts
     def create
