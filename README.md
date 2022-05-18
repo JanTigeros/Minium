@@ -1,24 +1,22 @@
-# README
+# Minium
+Minium is a web application of Medium clone. It is built in ruby on rails, which is useful for creating web applications. The database is made in postgresql. All together it is hosted on a Heroku web server with a connection via Heroku CLI. The online application can be viewed at: [minium-jan.herokuapp.com](https://minium-jan.herokuapp.com)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Functions
+- Heroku hosted
+- Postgresql database prepaired for web hosting
+- Users can write a review for the post
+- Sign in with Github
+- Sign in with Google account
+- Author editing site
+- Posts preview page
+- more comming
 
-Things you may want to cover:
+# Gallery
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![kekec](https://i.ibb.co/Zf4XHmW/Screenshot-23.png)
+![kekec](https://i.ibb.co/6HshD1p/Screenshot-24.png)
+![kekec](https://i.ibb.co/ZfjHngC/Screenshot-25.png)
+![kekec](https://i.ibb.co/ygCYQGg/Screenshot-26.png)
+![kekec](https://i.ibb.co/YDPHCcr/Screenshot-27.png)
+![kekec](https://i.ibb.co/Lr1MFfN/Screenshot-28.png)
+![kekec](https://i.ibb.co/KWdZN4W/Screenshot-29.png)
