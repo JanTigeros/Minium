@@ -1,0 +1,49 @@
+<%= stylesheet_link_tag "application" %>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top additional-nav">
+    <a class="navbar-brand" href="#">Medium</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="../">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/authors/sign_up">Sign in</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/authors/sign_out">Sign out</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">All Posts</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+<div class="container">
+<p id="notice"><%= notice %></p>
+
+<!-- Post -->
+<h4 class="d-flex justify-content-between mb-4">
+  <span>Post</span>
+  <%= link_to 'New Post', new_post_path, class: 'btn btn-primary' %>
+</h4>
+
+<% @posts.each do |post|%>
+  <%= link_to post, class: 'text-decoration-none' do %>
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title mb-1 text-dark"><%= post.title %></h5>
+        <p class="text-secondary"><%= post.description %></p>
+      </div>
+    </div>
+  <% end %>
+<% end %>
+</div>
