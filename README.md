@@ -12,3 +12,11 @@ Minium is a web application built on Medium. It is built in ruby on rails, which
 - more comming
 
 # Gallery
+
+![kekec](https://i.ibb.co/Zf4XHmW/Screenshot-23.png)
+![kekec](https://i.ibb.co/6HshD1p/Screenshot-24.png)
+![kekec](https://i.ibb.co/ZfjHngC/Screenshot-25.png)
+![kekec](https://i.ibb.co/ygCYQGg/Screenshot-26.png)
+![kekec](https://i.ibb.co/YDPHCcr/Screenshot-27.png)
+![kekec](https://i.ibb.co/Lr1MFfN/Screenshot-28.png)
+![kekec](https://i.ibb.co/KWdZN4W/Screenshot-29.png)
