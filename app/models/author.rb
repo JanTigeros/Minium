@@ -15,6 +15,6 @@ class Author < ApplicationRecord
             password: Devise.friendly_token[0,20]
          )
       end
-    user
+    author
   end
 end
