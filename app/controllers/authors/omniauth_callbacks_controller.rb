@@ -10,7 +10,7 @@ class Authors::OmniauthCallbacksController < Devise::OmniauthCallbacksController
           sign_in_and_redirect @author, event: :authentication
         else
           session['devise.github_data'] = request.env['omniauth.auth'].except('extra') # Removing extra as it can overflow some session stores
-          redirect_to new_user_registration_url, alert: @author.errors.full_messages.join("\n")
+          redirect_to new_author_registration_url, alert: @author.errors.full_messages.join("\n")
         end
     end
   end
